@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Caramel', cursive;
+  color: 	#66545e;
+  text-shadow: 0.2px 0.2px #000000;
+}
+
+body{
+  background-image: url(images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card{
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.inside{
+  opacity:0;
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: dashed 4px #eea990;
+  border-radius: 15px;
+  background-color:	#f6e0b5;
+  transition: 0.5s;
+  box-shadow: 1px 1px 18px 	#a39193;
+}
+
+.inside p{
+  font-size: 21px;
+}
+
+.inside:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+.outside{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: dashed 4px #eea990;
+  border-radius: 15px;
+  background-color:	#f6e0b5;
+  box-shadow: 1px 1px 18px #a39193;
+}
+
+.outside h1{
+  text-align:center;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  color: 	#aa6f73;
+  font-family: 'Caramel', cursive;
+}
+
+.polaroid-1{
+  position: absolute;
+  left: 70%;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin-top: 45px;
+  box-shadow: 1px 1px 18px #a39193;
+}
+
+.polaroid-2{
+  position: absolute;
+  left: 75%;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin-top: 315px;
+  box-shadow: 1px 1px 18px #a39193;
+}
+
+.polaroid-3{
+  position: absolute;
+  left: 8%;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin-top: 45px;
+  box-shadow: 1px 1px 18px #a39193;
+}
+
+.polaroid-4{
+  position: absolute;
+  left: 14%;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin-top: 315px;
+  box-shadow: 1px 1px 18px #a39193;
+}
+
+#cake{
+  position: absolute;
+  top: 140px;
+  left: -10px;
+}
+
+#gift{
+  margin-left: 33% ;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+#gift:hover{
+  color: rgb(255, 0, 115);
+}
